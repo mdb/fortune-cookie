@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
   res.status(200).send('Hello world!');
 });
 
-app.post('/url', fortuneCookie);
+app.post('/fortune', fortuneCookie);
 
 // error handler
 app.use(function (err, req, res, next) {
