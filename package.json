@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "A slackbot that tells tech industry fortunes!",
   "main": "fortune_cookie.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mdb/fortune-cookie.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
