@@ -1,1 +1,1 @@
-web: node app
+web: node fortune_cookie

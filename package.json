@@ -1,8 +1,8 @@
 {
   "name": "fortune-cookie",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A slackbot that tells tech industry fortunes!",
-  "main": "app.js",
+  "main": "fortune_cookie.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,8 +13,6 @@
   "author": "Mike Ball",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.x.x",
-    "express": "^4.x.x",
-    "request": "^2.51.0"
+    "slack-integrator": "0.0.5"
   }
 }
