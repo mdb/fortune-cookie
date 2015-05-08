@@ -33,6 +33,7 @@ module.exports = function () {
     "Your methods will be tested and proven",
     "The care and sensitivity you offer in calling functions will return to you",
     "To understand recursion, you must first understand recursion",
-    "Your worth cannot be measured in SLOC"
+    "Your worth cannot be measured in SLOC",
+    "Computers are hard."
   ];
 };
