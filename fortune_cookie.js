@@ -1,7 +1,7 @@
 var fortunes = require('./fortunes')(),
     Integrator = require('slack-integrator');
 
-new Integrator({
+var fortuneCookie = new Integrator({
   payload: function (req, callback) {
     callback({
       text: '@' + req.body.user_name + '...\n' + getFortune(),
@@ -19,3 +19,5 @@ function getFortune(text) {
 
   return fortunes[randomIndex];
 }
+
+module.exports = fortuneCookie;
