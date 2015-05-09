@@ -8,7 +8,7 @@
     "url": "http://github.com/mdb/fortune-cookie.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha"
   },
   "keywords": [
     "slack",
@@ -17,6 +17,12 @@
   "author": "Mike Ball",
   "license": "MIT",
   "dependencies": {
-    "slack-integrator": "0.0.5"
+    "slack-integrator": "0.0.6"
+  },
+  "devDependencies": {
+    "mocha": "1.14.x",
+    "supertest": "0.14.x",
+    "nock": "0.58.0",
+    "proxyquire": "1.4.0"
   }
 }
